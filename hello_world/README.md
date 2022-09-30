@@ -1,3 +1,4 @@
-[master 12f9a02] New stuff
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 hello_world/README.md
+
+#holbertonschool-low_level_programming/hello_world/
+ -Create script named 0-preprocessor
+ -Create README.md for then know what is about
