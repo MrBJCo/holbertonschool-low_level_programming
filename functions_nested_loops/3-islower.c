@@ -4,7 +4,7 @@
  * @c: single letter input
  * Return: Always success
  */
-int _islower(int c)
+int islower(int c)
 {
 
 if (c >= 'a' && c <= 'z')
