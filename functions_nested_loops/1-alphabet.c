@@ -4,7 +4,7 @@
  *
  * Return: Always success
  */
-void print_alphabetx10(void);
+void print_alphabet(void);
 {
 
 int n;
