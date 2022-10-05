@@ -2,9 +2,9 @@
 /**
  * print_alphabet - print the alphabet
  *
- * Return: Always 0 success
+ * Return: Always success
  */
-void print_alphabet(void)
+void print_alphabetx10(void)
 {
 
 int n;
