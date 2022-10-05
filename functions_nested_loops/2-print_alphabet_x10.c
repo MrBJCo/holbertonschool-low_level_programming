@@ -4,7 +4,7 @@
  *
  * Return Always success
  */
-void print_alphabet_x10(void)
+void printf_alphabet_x10(void)
 {
 
 int n, co;
