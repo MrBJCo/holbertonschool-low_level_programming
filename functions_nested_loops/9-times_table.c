@@ -26,4 +26,3 @@ for (col = 1; col <= 9; col++)
 	{
 		_putchar(' ');
 	}
-
