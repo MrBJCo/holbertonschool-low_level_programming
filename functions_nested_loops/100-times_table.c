@@ -20,23 +20,23 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 
-				prod = num * mult;
+				proud = num * mult;
 
-				if (prod <= 99)
+				if (proud <= 99)
 					_putchar(' ');
-				if (prod <= 9)
+				if (proud <= 9)
 					_putchar(' ');
 
-				if (prod >= 100)
+				if (proud >= 100)
 				{
-					_putchar((prod / 100) + '0');
-					_putchar(((prod / 10)) % 10 + '0');
+					_putchar((proud / 100) + '0');
+					_putchar(((proud / 10)) % 10 + '0');
 				}
-				else if (prod <= 99 && prod >= 10)
+				else if (proud <= 99 && prod >= 10)
 				{
-					_putchar((prod / 10) + '0');
+					_putchar((proud / 10) + '0');
 				}
-				_putchar((prod % 10) + '0');
+				_putchar((proud % 10) + '0');
 			}
 		}
 	}
