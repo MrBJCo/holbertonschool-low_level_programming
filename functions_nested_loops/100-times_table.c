@@ -32,7 +32,7 @@ void print_times_table(int n)
 					_putchar((proud / 100) + '0');
 					_putchar(((proud / 10)) % 10 + '0');
 				}
-				else if (proud <= 99 && prod >= 10)
+				else if (proud <= 99 && proud >= 10)
 				{
 					_putchar((proud / 10) + '0');
 				}
