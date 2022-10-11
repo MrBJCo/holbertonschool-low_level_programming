@@ -22,7 +22,8 @@ char *cap_string(char *z)
 		for (j = 0; j < 14; j++)
 		{
 			if (z[i] == badBoys[j])
-			{			
+			{
+
 				if (z[i + 1] >= 'a' && z[i + 1] <= 'z')																					z[i + 1] -= 32;
 			}
 			
