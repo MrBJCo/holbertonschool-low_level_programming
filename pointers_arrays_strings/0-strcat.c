@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 	int len1; /* string length for src */
 	int len2; /* string length for dest */
 	int i;
-	
+
 	len1 = 0;
 	len2 = 0;
 
