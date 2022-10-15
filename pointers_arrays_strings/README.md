@@ -2,8 +2,9 @@
 ## 98 Battery st.
 Write a function that takes a pointer to an **int** as parameter and updates the value it points to to **98**.
 
-    Prototype: void reset_to_98(int *n);
+- Prototype: **void reset_to_98(int *n)**;
 
+```
 julien@ubuntu:~/$ cat 0-main.c
 #include "main.h"
 #include <stdio.h>
@@ -28,22 +29,20 @@ julien@ubuntu:~/$ ./0-98
 n=402
 n=98
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 0-reset_to_98.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **0-reset_to_98.c**
 
-7/7 pts
-1. Don't swap horses in crossing a stream
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## Don't swap horses in crossing a stream
 Write a function that swaps the values of two integers.
 
-    Prototype: void swap_int(int *a, int *b);
+- Prototype: **void swap_int(int *a, int *b)**;
 
+```
 julien@ubuntu:~/$ cat 1-main.c
 #include "main.h"
 #include <stdio.h>
@@ -70,24 +69,21 @@ julien@ubuntu:~/$ ./1-swap
 a=98, b=42
 a=42, b=98
 julien@ubuntu:~/$
-
+```
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 1-swap.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **1-swap.c**
 
-7/7 pts
-2. This report, by its very length, defends itself against the risk of being read
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## This report, by its very length, defends itself against the risk of being read
 Write a function that returns the length of a string.
 
-    Prototype: int _strlen(char *s);
+- Prototype: **int _strlen(char *s)**;
 
-FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
+FYI: The standard library provides a similar function: **strlen**. Run **man strlen** to learn more.
 
+```
 julien@ubuntu:~/$ cat 2-main.c
 #include "main.h"
 #include <stdio.h>
@@ -111,24 +107,22 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strl
 julien@ubuntu:~/$ ./2-strlen 
 16
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 2-strlen.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **2-strlen.c**
 
-7/7 pts
-3. I do not fear computers. I fear the lack of them
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## I do not fear computers. I fear the lack of them
+Write a function that prints a string, followed by a new line, to **stdout**.
 
-Write a function that prints a string, followed by a new line, to stdout.
+- Prototype: **void _puts(char *str)**;
 
-    Prototype: void _puts(char *str);
+FYI: The standard library provides a similar function: **puts**. Run **man puts** to learn more.
 
-FYI: The standard library provides a similar function: puts. Run man puts to learn more.
-
+```
 julien@ubuntu:~/$ cat 3-main.c
 #include "main.h"
 
@@ -149,22 +143,20 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-ma
 julien@ubuntu:~/$ ./3-puts 
 I do not fear computers. I fear the lack of them - Isaac Asimov
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 3-puts.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **3-puts.c**
 
-7/7 pts
-4. I can only go one way. I've not got a reverse gear
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## I can only go one way. I've not got a reverse gear
+Write a function that prints a **string**, in reverse, followed by a new line.
 
-Write a function that prints a string, in reverse, followed by a new line.
+- Prototype: **void print_rev(char *s)**;
 
-    Prototype: void print_rev(char *s);
-
+```
 julien@ubuntu:~/$ cat 4-main.c
 #include "main.h"
 
@@ -185,22 +177,19 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-ma
 julien@ubuntu:~/$ ./4-print_rev 
 vomisA caasI - meht fo kcal eht raef I .sretupmoc raef ton od I
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 4-print_rev.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **4-print_rev.c**
 
-7/7 pts
-5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+    
+- Prototype: **void rev_string(char *s)**;
 
-Write a function that reverses a string.
-
-    Prototype: void rev_string(char *s);
-
+```
 julien@ubuntu:~/$ cat 5-main.c
 #include "main.h"
 #include <stdio.h>
@@ -224,22 +213,20 @@ julien@ubuntu:~/$ ./5-rev_string
 My School
 loohcS yM
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 5-rev_string.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **5-rev_string.c**
 
-7/7 pts
-6. Half the lies they tell about me aren't true
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## Half the lies they tell about me aren't true
+Write a function that prints every other character of a **string**, starting with the first character, followed by a new line.
 
-Write a function that prints every other character of a string, starting with the first character, followed by a new line.
+- Prototype: **void puts2(char *str)**;
 
-    Prototype: void puts2(char *str);
-
+```
 julien@ubuntu:~/$ cat 6-main.c
 #include "main.h"
 
@@ -260,24 +247,22 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-ma
 julien@ubuntu:~/$ ./6-puts2 
 02468
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 6-puts2.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **6-puts2.c**
 
-7/7 pts
-7. Winning is only half of it. Having fun is the other half
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## Winning is only half of it. Having fun is the other half
+Write a function that prints half of a **string**, followed by a new line.
 
-Write a function that prints half of a string, followed by a new line.
-
-    Prototype: void puts_half(char *str);
+- Prototype: void puts_half(char *str);
     The function should print the second half of the string
     If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
 
+```
 julien@ubuntu:~/$ cat 7-main.c
 #include "main.h"
 
@@ -298,26 +283,24 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-ma
 julien@ubuntu:~/$ ./7-puts_half 
 56789
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 7-puts_half.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **7-puts_half.c**
 
-7/7 pts
-8. Arrays are not pointers
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## Arrays are not pointers
 Write a function that prints n elements of an array of integers, followed by a new line.
 
-    Prototype: void print_array(int *a, int n);
+- Prototype: void print_array(int *a, int n);
     where n is the number of elements of the array to be printed
     Numbers must be separated by comma, followed by a space
     The numbers should be displayed in the same order as they are stored in the array
     You are allowed to use printf
 
+```
 julien@ubuntu:~/$ cat 8-main.c
 #include "main.h"
 
@@ -342,26 +325,25 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 8-prin
 julien@ubuntu:~/$ ./8-print_array 
 98, 402, -198, 298, -1024
 julien@ubuntu:~/$
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 8-print_array.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **8-print_array.c
 
-7/7 pts
-9. strcpy
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## strcpy
+    
+- Prototype: **char *_strcpy(char *dest, char *src)**;
 
-    Prototype: char *_strcpy(char *dest, char *src);
+Write a function that copies the **string** pointed to by **src**, including the terminating **null** byte **(\0)**, to the buffer pointed to by **dest**.
 
-Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+- Return value: the pointer to dest
 
-    Return value: the pointer to dest
+FYI: The standard library provides a similar function: **strcpy**. Run **man strcpy** to learn more.
 
-FYI: The standard library provides a similar function: strcpy. Run man strcpy to learn more.
-
+```
 julien@ubuntu:~/$ cat 9-main.c
 #include "main.h"
 #include <stdio.h>
@@ -386,12 +368,13 @@ julien@ubuntu:~/$ ./9-strcpy
 First, solve the problem. Then, write the code
 First, solve the problem. Then, write the code
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 9-strcpy.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **9-strcpy.c**
 
 # C - More pointers, arrays and strings
 ## 
