@@ -1098,12 +1098,13 @@ Repo:
 ## strstr
 Write a function that locates a substring.
 
-    Prototype: char *_strstr(char *haystack, char *needle);
+- Prototype: **char *_strstr(char *haystack, char *needle)**;
     The _strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared
     Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.
 
-FYI: The standard library provides a similar function: strstr. Run man strstr to learn more.
+FYI: The standard library provides a similar function: **strstr**. Run **man strstr** to learn more.
 
+```
 julien@ubuntu:~/$ cat 5-main.c
 #include "main.h"
 #include <stdio.h>
@@ -1127,22 +1128,20 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-strs
 julien@ubuntu:~/$ ./5-strstr 
 world
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 5-strstr.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **5-strstr.c**
 
-7/7 pts
-6. Chess is mental torture
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## Chess is mental torture
 Write a function that prints the chessboard.
 
-    Prototype: void print_chessboard(char (*a)[8]);
+- Prototype: **void print_chessboard(char (*a)[8])**;
 
+```
 julien@ubuntu:~/$ cat 7-main.c 
 #include "main.h"
 #include <stdio.h>
@@ -1178,26 +1177,24 @@ pppppppp
 PPPPPPPP
 RKBQKBKR
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 7-print_chessboard.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **7-print_chessboard.c**
 
-7/7 pts
-7. The line of life is a ragged diagonal between duty and desire
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## The line of life is a ragged diagonal between duty and desire
 Write a function that prints the sum of the two diagonals of a square matrix of integers.
 
-    Prototype: void print_diagsums(int *a, int size);
+- Prototype: **void print_diagsums(int *a, int size)**;
     Format: see example
     You are allowed to use the standard library
 
-Note that in the following example we are casting an int[][] into an int*. This is not something you should do. The goal here is to make sure you understand how an array of array is stored in memory.
+Note that in the following example we are casting an **int[][]** into an int*. This is not something you should do. The goal here is to make sure you understand how an array of array is stored in memory.
 
+```
 julien@ubuntu:~/$ cat 8-main.c
 #include "main.h"
 #include <stdio.h>
@@ -1230,9 +1227,10 @@ julien@ubuntu:~/$ ./8-print_diagsums
 113, 1016
 1214556093, 1137318
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 8-print_diagsums.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **8-print_diagsums.c**
