@@ -1,32 +1,29 @@
-#
-## 
-0. _putchar
-mandatory
-
+# functions_nested_loops/
+## _putchar
 Write a program that prints _putchar, followed by a new line.
 
-    The program should return 0
+- The program should return **0**
 
+```
 julien@ubuntu:~/$  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
 julien@ubuntu:~/$ ./0-putchar 
 _putchar
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 0-putchar.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **functions_nested_loops**
+- File: **0-putchar.c**
 
-7/7 pts
-1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
-mandatory
-
+## I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 Write a function that prints the alphabet, in lowercase, followed by a new line.
 
-    Prototype: void print_alphabet(void);
-    You can only use _putchar twice in your code
+- Prototype: **void print_alphabet(void)**;
+    You can only use **_putchar** twice in your code
 
+```
 julien@ubuntu:~/$ cat 1-main.c
 #include "main.h"
 
@@ -44,22 +41,21 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-ma
 julien@ubuntu:~/$ ./1-alphabet 
 abcdefghijklmnopqrstuvwxyz
 julien@ubuntu:~/$
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 1-alphabet.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **functions_nested_loops**
+- File: **1-alphabet.c**
 
-7/7 pts
-2. 10 x alphabet
-mandatory
-
+## 10 x alphabet
 Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
 
-    Prototype: void print_alphabet_x10(void);
-    You can only use _putchar twice in your code
+- Prototype: **void print_alphabet_x10(void)**;
+    You can only use **_putchar** twice in your code
 
+```
 julien@ubuntu:~/$ cat 2-main.c
 #include "main.h"
 
@@ -86,25 +82,24 @@ abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyz
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 2-print_alphabet_x10.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **functions_nested_loops**
+- File: **2-print_alphabet_x10.c**
 
-7/7 pts
-3. islower
-mandatory
-
+## islower
 Write a function that checks for lowercase character.
 
-    Prototype: int _islower(int c);
-    Returns 1 if c is lowercase
-    Returns 0 otherwise
+- Prototype: **int _islower(int c)**;
+    Returns **1** if **c** is lowercase
+    Returns **0** otherwise
 
-FYI: The standard library provides a similar function: islower. Run man islower to learn more.
+FYI: The standard library provides a similar function: **islower**. Run **man islower** to learn more.
 
+```
 julien@ubuntu:~/$ cat 3-main.c 
 #include "main.h"
 
@@ -130,25 +125,23 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-ma
 julien@ubuntu:~/$ ./3-islower 
 011
 julien@ubuntu:~/$ 
-
+```
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 3-islower.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **functions_nested_loops**
+- File: **3-islower.c**
 
-14/14 pts
-4. isalpha
-mandatory
-
+## isalpha
 Write a function that checks for alphabetic character.
 
-    Prototype: int _isalpha(int c);
+- Prototype: **int _isalpha(int c)**;
     Returns 1 if c is a letter, lowercase or uppercase
     Returns 0 otherwise
 
-FYI: The standard library provides a similar function: isalpha. Run man isalpha to learn more.
+FYI: The standard library provides a similar function: **isalpha**. Run **man isalpha** to learn more.
 
+```
 julien@ubuntu:~/$ cat 4-main.c 
 #include "main.h"
 
@@ -176,24 +169,23 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-ma
 julien@ubuntu:~/$ ./4-isalpha 
 1110
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 4-isalpha.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **functions_nested_loops**
+- File: **4-isalpha.c**
 
-14/14 pts
-5. Sign
-mandatory
-
+## Sign
 Write a function that prints the sign of a number.
 
-    Prototype: int print_sign(int n);
-    Returns 1 and prints + if n is greater than zero
-    Returns 0 and prints 0 if n is zero
-    Returns -1 and prints - if n is less than zero
+- Prototype: **int print_sign(int n)**;
+    Returns **1** and prints **+** if **n** is greater than zero
+    Returns **0** and prints **0** if **n** is zero
+    Returns **-1** and prints **-** if **n** is less than zero
 
+```
 julien@ubuntu:~/$ cat 5-main.c
 #include "main.h"
 
@@ -235,23 +227,22 @@ julien@ubuntu:~/$ ./5-sign
 +, 1
 -, /
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 5-sign.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **functions_nested_loops**
+- File: **5-sign.c**
 
-10/10 pts
-6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
-mandatory
-
+## There is no such thing as absolute value in this world. You can only estimate what a thing is worth it
 Write a function that computes the absolute value of an integer.
 
-    Prototype: int _abs(int);
+- Prototype: **int _abs(int)**;
 
-FYI: The standard library provides a similar function: abs. Run man abs to learn more.
+FYI: The standard library provides a similar function: **abs*. Run **man abs** to learn more.
 
+```
 julien@ubuntu:~/$ cat 6-main.c
 #include "main.h"
 #include <stdio.h>
@@ -282,22 +273,20 @@ julien@ubuntu:~/$ ./6-abs
 1
 98
 julien@ubuntu:~/$ 
-
+```
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 6-abs.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **functions_nested_loops**
+- File: **6-abs.c**
 
-10/10 pts
-7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
-mandatory
-
+## There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 Write a function that prints the last digit of a number.
 
-    Prototype: int print_last_digit(int);
+- Prototype: **int print_last_digit(int)**;
     Returns the value of the last digit
 
+```
 julien@ubuntu:~/$ cat 7-main.c
 #include "main.h"
 
@@ -321,22 +310,20 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-ma
 julien@ubuntu:~/$ ./7-last_digit 
 8044
 julien@ubuntu:~/$ 
-
+```
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 7-print_last_digit.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **functions_nested_loops**
+- File: **7-print_last_digit.c**
 
-8/8 pts
-8. I'm federal agent Jack Bauer, and today is the longest day of my life
-mandatory
-
+## I'm federal agent Jack Bauer, and today is the longest day of my life
 Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
-    Prototype: void jack_bauer(void);
+- Prototype: **void jack_bauer(void)**;
     You can listen to this soundtrack while coding :)
 
+```
 julien@ubuntu:~/$ cat 8-main.c
 #include "main.h"
 
@@ -376,22 +363,21 @@ julien@ubuntu:~/$ ./8-24 | tail
 julien@ubuntu:~/$ ./8-24 | wc -l
 1440
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 8-24_hours.c
+- GitHub repository: holbertonschool-low_level_programming
+- Directory: functions_nested_loops
+- File: 8-24_hours.c
 
-6/6 pts
-9. Learn your times table
-mandatory
-
+## Learn your times 
 Write a function that prints the 9 times table, starting with 0.
 
-    Prototype: void times_table(void);
+- Prototype: **void times_table(void)**;
     Format: see example
 
+```
 julien@ubuntu:~/$ cat 9-main.c
 #include "main.h"
 
@@ -429,21 +415,20 @@ julien@ubuntu:~/$ ./9-times_table | tr ' ' . | cat -e
 0,..8,.16,.24,.32,.40,.48,.56,.64,.72$
 0,..9,.18,.27,.36,.45,.54,.63,.72,.81$
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 9-times_table.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **functions_nested_loops**
+- File: **9-times_table.c**
 
-6/6 pts
-10. a + b
-mandatory
-
+## a + b
 Write a function that adds two integers and returns the result.
 
-    Prototype: int add(int, int);
+- Prototype: **int add(int, int)**;
 
+```
 julien@ubuntu:~/$ cat 10-main.c
 #include "main.h"
 #include <stdio.h>
@@ -465,9 +450,10 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-m
 julien@ubuntu:~/$ ./10-add 
 98
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: functions_nested_loops
-    File: 10-add.
+- GitHub repository: **holbertonschool-low_level_programmin**g
+- Directory: **functions_nested_loops**
+- File: **10-add**.
