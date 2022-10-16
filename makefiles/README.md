@@ -85,8 +85,8 @@ Requirements:
 - SRC: the .c files
 - OBJ: the .o files
 - NAME: the name of the executable
-- The all rule should recompile only the updated source files
-- You are not allowed to have a list of all the .o files
+    The all rule should recompile only the updated source files
+    You are not allowed to have a list of all the .o files
 
 ```
 julien@ubuntu:~/Makefiles$ make -f 2-Makefile
@@ -124,9 +124,11 @@ Requirements:
 - OBJ: the .o files
 - NAME: the name of the executable
 - RM: the program to delete files
-- The all rule should recompile only the updated source files
-- The clean, oclean, fclean, re rules should never fail
-- You are not allowed to have a list of all the .o files
+   The all rule should recompile only the updated source files
+   
+   The **clean, oclean, fclean**, re rules should never fail
+   
+   You are not allowed to have a list of all the **.o** files
 
 ```
 julien@ubuntu:~//Makefiles$ ls -1
