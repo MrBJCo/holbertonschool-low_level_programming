@@ -331,7 +331,7 @@ Repo:
 
 - GitHub repository: **holbertonschool-low_level_programming**
 - Directory: **pointers_arrays_strings**
-- File: **8-print_array.c
+- File: **8-print_array.c**
 
 ## strcpy
     
@@ -703,16 +703,13 @@ Repo:
     Directory: pointers_arrays_strings
     File: 5-string_toupper.c
 
-7/7 pts
-6. Expect the best. Prepare for the worst. Capitalize on what comes
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## Expect the best. Prepare for the worst. Capitalize on what comes
 Write a function that capitalizes all words of a string.
 
-    Prototype: char *cap_string(char *);
+-Prototype:**char cap_string(char *)**
     Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
 
+```
 julien@ubuntu:~/$ cat 6-main.c
 #include "main.h"
 #include <stdio.h>
@@ -739,31 +736,29 @@ Hello World! Hello-world 0123456hello World Hello World.Hello World
 Expect The Best. Prepare For The Worst. Capitalize On What Comes.
 Hello World! Hello-world 0123456hello World Hello World.Hello World
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 6-cap_string.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **6-cap_string.c**
 
-7/7 pts
-7. Mozart composed his music not for the elite, but for everybody
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## Mozart composed his music not for the elite, but for everybody
 Write a function that encodes a string into 1337.
 
-    Letters a and A should be replaced by 4
-    Letters e and E should be replaced by 3
-    Letters o and O should be replaced by 0
-    Letters t and T should be replaced by 7
-    Letters l and L should be replaced by 1
-    Prototype: char *leet(char *);
-    You can only use one if in your code
-    You can only use two loops in your code
-    You are not allowed to use switch
-    You are not allowed to use any ternary operation
+- Letters a and A should be replaced by 4
+- Letters e and E should be replaced by 3
+- Letters o and O should be replaced by 0
+- Letters t and T should be replaced by 7
+- Letters l and L should be replaced by 1
+- Prototype: char *leet(char *);
+- You can only use one if in your code
+- You can only use two loops in your code
+- You are not allowed to use switch
+- You are not allowed to use any ternary operation
 
+```
 julien@ubuntu:~/$ cat 7-main.c
 #include "main.h"
 #include <stdio.h>
@@ -788,27 +783,25 @@ julien@ubuntu:~/$ ./7-1337
 3xp3c7 7h3 b3s7. Pr3p4r3 f0r 7h3 w0rs7. C4pi741iz3 0n wh47 c0m3s.
 3xp3c7 7h3 b3s7. Pr3p4r3 f0r 7h3 w0rs7. C4pi741iz3 0n wh47 c0m3s.
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 7-leet.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **7-leet.c**
 
 # C - Even more pointers, arrays and strings
-## 
-0. memset
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## memset
 Write a function that fills memory with a constant byte.
 
-    Prototype: char *_memset(char *s, char b, unsigned int n);
+- Prototype: **char *_memset(char *s, char b, unsigned int n)**;
     The _memset() function fills the first n bytes of the memory area pointed to by s with the constant byte b
     Returns a pointer to the memory area s
 
-FYI: The standard library provides a similar function: memset. Run man memset to learn more.
+FYI: The standard library provides a similar function: **memset**. Run **man memset** to learn more.
 
+```
 julien@ubuntu:~/$ cat 0-main.c
 #include "main.h"
 #include <stdio.h>
@@ -880,26 +873,24 @@ julien@ubuntu:~/$ ./0-memset
 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01
 0x01 0x01 0x01 0x01 0x01 0x00 0x00 0x00
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 0-memset.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **0-memset.c**
 
-7/7 pts
-1. memcpy
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## memcpy
 Write a function that copies memory area.
 
-    Prototype: char *_memcpy(char *dest, char *src, unsigned int n);
+- Prototype: **char *_memcpy(char *dest, char *src, unsigned int n)**;
     The _memcpy() function copies n bytes from memory area src to memory area dest
     Returns a pointer to dest
 
-FYI: The standard library provides a similar function: memcpy. Run man memcpy to learn more.
+FYI: The standard library provides a similar function: **memcpy**. Run **man memcpy** to learn more.
 
+```
 julien@ubuntu:~/$ cat 1-main.c
 #include "main.h"
 #include <stdio.h>
@@ -972,25 +963,23 @@ julien@ubuntu:~/$ ./1-memcpy
 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 1-memcpy.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **1-memcpy.c**
 
-7/7 pts
-2. strchr
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## strchr
 Write a function that locates a character in a string.
 
-    Prototype: char *_strchr(char *s, char c);
+- Prototype: **char *_strchr(char *s, char c)**;
     Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
 
-FYI: The standard library provides a similar function: strchr. Run man strchr to learn more.
+FYI: The standard library provides a similar function: **strchr. Run **man strchr** to learn more.
 
+```
 julien@ubuntu:~/$ cat 2-main.c
 #include "main.h"
 #include <stdio.h>
@@ -1017,25 +1006,23 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strc
 julien@ubuntu:~/$ ./2-strchr 
 llo
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 2-strchr.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **2-strchr.c**
 
-7/7 pts
-3. strspn
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## strspn
 Write a function that gets the length of a prefix substring.
 
-    Prototype: unsigned int _strspn(char *s, char *accept);
+- Prototype: **unsigned int _strspn(char *s, char *accept)**;
     Returns the number of bytes in the initial segment of s which consist only of bytes from accept
 
-FYI: The standard library provides a similar function: strspn. Run man strspn to learn more.
+FYI: The standard library provides a similar function: **strspn**. Run **man strspn** to learn more.
 
+```
 julien@ubuntu:~/$ cat 3-main.c
 #include "main.h"
 #include <stdio.h>
@@ -1059,26 +1046,24 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-strs
 julien@ubuntu:~/$ ./3-strspn 
 5
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 3-strspn.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **3-strspn.c**
 
-7/7 pts
-4. strpbrk
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## strpbrk
 Write a function that searches a string for any of a set of bytes.
 
-    Prototype: char *_strpbrk(char *s, char *accept);
+- Prototype: **char *_strpbrk(char *s, char *accept)**;
     The _strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept
     Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
 
-FYI: The standard library provides a similar function: strpbrk. Run man strpbrk to learn more.
+FYI: The standard library provides a similar function: **strpbrk**. Run **man strpbrk** to learn more.
 
+```
 julien@ubuntu:~/$ cat 4-main.c
 #include "main.h"
 #include <stdio.h>
@@ -1102,18 +1087,15 @@ julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-strp
 julien@ubuntu:~/$ ./4-strpbrk 
 llo, world
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 4-strpbrk.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **4-strpbrk.c**
 
-7/7 pts
-5. strstr
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## strstr
 Write a function that locates a substring.
 
     Prototype: char *_strstr(char *haystack, char *needle);
