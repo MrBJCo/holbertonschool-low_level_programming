@@ -377,19 +377,16 @@ Repo:
 - File: **9-strcpy.c**
 
 # C - More pointers, arrays and strings
-## 
-0. strcat
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## strcat
 Write a function that concatenates two strings.
 
-    Prototype: char *_strcat(char *dest, char *src);
+- Prototype: char *_strcat(char *dest, char *src);
     This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte
     Returns a pointer to the resulting string dest
 
-FYI: The standard library provides a similar function: strcat. Run man strcat to learn more.
+FYI: The standard library provides a similar function: **strcat**. Run **man strcat** to learn more.
 
+```
 julien@ubuntu:~/$ cat 0-main.c
 #include "main.h"
 #include <stdio.h>
@@ -421,28 +418,26 @@ Hello World!
 World!
 Hello World!
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 0-strcat.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **0-strcat.c**
 
-7/7 pts
-1. strncat
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## strncat
 Write a function that concatenates two strings.
 
-    Prototype: char *_strncat(char *dest, char *src, int n);
+- Prototype: char *_strncat(char *dest, char *src, int n);
     The _strncat function is similar to the _strcat function, except that
         it will use at most n bytes from src; and
         src does not need to be null-terminated if it contains n or more bytes
     Return a pointer to the resulting string dest
 
-FYI: The standard library provides a similar function: strncat. Run man strncat to learn more.
+FYI: The standard library provides a similar function: **strncat**. Run **man strncat** to learn more.
 
+```
 julien@ubuntu:~/$ cat 1-main.c
 #include "main.h"
 #include <stdio.h>
@@ -481,25 +476,23 @@ Hello WWorld!
 World!
 Hello WWorld!
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 1-strncat.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **1-strncat.c**
 
-7/7 pts
-2. strncpy
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## strncpy
 Write a function that copies a string.
 
-    Prototype: char *_strncpy(char *dest, char *src, int n);
+- Prototype: char *_strncpy(char *dest, char *src, int n);
     Your function should work exactly like strncpy
 
-FYI: The standard library provides a similar function: strncpy. Run man strncpy to learn more.
+FYI: The standard library provides a similar function: **strncpy**. Run **man strncpy** to learn more.
 
+```
 julien@ubuntu:~/$ cat 2-main.c
 #include "main.h"
 #include <stdio.h>
@@ -560,25 +553,23 @@ First, solve the problem. Then, write the code
 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
 0x2a 0x2a 0x2a 0x2a 0x2a 0x2a 0x2a 0x00
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 2-strncpy.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **2-strncpy.c**
 
-8/8 pts
-3. strcmp
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## strcmp
 Write a function that compares two strings.
 
-    Prototype: int _strcmp(char *s1, char *s2);
+- Prototype: int _strcmp(char *s1, char *s2);
     Your function should work exactly like strcmp
 
-FYI: The standard library provides a similar function: strcmp. Run man strcmp to learn more.
+FYI: The standard library provides a similar function: **strcmp**. Run **man strcmp** to learn more.
 
+```
 julien@ubuntu:~/$ cat 3-main.c
 #include "main.h"
 #include <stdio.h>
@@ -604,23 +595,21 @@ julien@ubuntu:~/$ ./3-strcmp
 15
 0
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 3-strcmp.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **3-strcmp.c**
 
-7/7 pts
-4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## I am a kind of paranoid in reverse. I suspect people of plotting to make me happy
 Write a function that reverses the content of an array of integers.
 
-    Prototype: void reverse_array(int *a, int n);
+- Prototype: void reverse_array(int *a, int n);
     Where n is the number of elements of the array
 
+```
 julien@ubuntu:~/$ cat 4-main.c
 #include "main.h"
 #include <stdio.h>
@@ -668,22 +657,20 @@ julien@ubuntu:~/$ ./4-rev_array
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 98, 1024, 1337
 1337, 1024, 98, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-low_level_programming
-    Directory: pointers_arrays_strings
-    File: 4-rev_array.c
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **pointers_arrays_strings**
+- File: **4-rev_array.c**
 
-7/7 pts
-5. Always look up
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## Always look up
 Write a function that changes all lowercase letters of a string to uppercase.
 
-    Prototype: char *string_toupper(char *);
+- Prototype: char *string_toupper(char *);
 
+```
 julien@ubuntu:~/$ cat 5-main.c
 #include "main.h"
 #include <stdio.h>
@@ -708,6 +695,7 @@ julien@ubuntu:~/$ ./5-string_toupper
 LOOK UP!
 LOOK UP!
 julien@ubuntu:~/$ 
+```
 
 Repo:
 
