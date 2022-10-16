@@ -8,11 +8,11 @@ Write a function that checks for uppercase character.
 
 FYI: The standard library provides a similar function: isupper. Run man isupper to learn more.
 
+```
 julien@ubuntu:~/$ cat 0-main.c
 #include "main.h"
 #include <stdio.h>
 
-```
 /**
  * main - check the code.
  *
