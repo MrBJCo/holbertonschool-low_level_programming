@@ -33,11 +33,11 @@ Repo:
 - File: **0-puts_recursion.c**
 
 ## Why is it so important to dream? Because, in my dreams we are together
-
 Write a function that prints a string in reverse.
 
-    Prototype: void _print_rev_recursion(char *s);
+- Prototype: **void _print_rev_recursion(char *s)**;
 
+```
 julien@ubuntu:~/Recursion$ cat 1-main.c
 #include "main.h"
 
