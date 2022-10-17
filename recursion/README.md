@@ -1,7 +1,7 @@
 ## She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget
 Write a function that prints a string, followed by a new line.
 
-    Prototype: **void _puts_recursion(char *s)**;
+- Prototype: **void _puts_recursion(char *s)**;
 
 FYI: The standard library provides a similar function: **puts**. Run **man puts** to learn more.
 
@@ -27,6 +27,6 @@ julien@ubuntu:~/Recursion$
 
 Repo:
 
-    GitHub repository: **holbertonschool-low_level_programming**
-    Directory: **recursion**
-    File: **0-puts_recursion.c**
+- GitHub repository: **holbertonschool-low_level_programming**
+- Directory: **recursion**
+- File: **0-puts_recursion.c**
