@@ -22,7 +22,8 @@ int main(int argc, char *argv[])
 			{
 				if (argv[i][j] >= '0' && argv[i][j] <= '9')
 				{
-					continue;										} else
+					continue;
+				} else
 				{
 					printf("Error\n");
 					return (1);
@@ -32,7 +33,6 @@ int main(int argc, char *argv[])
 		}
 		printf("%d\n", result);
 	} else	
-		printf("0\n");
-			
+		printf("0\n");			
 	return (0);
 }
