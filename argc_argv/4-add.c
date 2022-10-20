@@ -1,30 +1,38 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - adds positive numbers
- * @argc: argument count
- * @argv: argument vector for values
+ * main - function with two argument
+ * @argc: int type argument
+ * @argv: char pointer type argument
  *
- * Return: Always 0 (Success)
+ * Description: adds positive numbers
+ * Return: sum value
  */
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int i, j, result;
 
-	if (argc < 1)
-		return (0);
-
-	for (i = 1; i < argc; i++)
+	result = 0;
+	if (argc > 1)
 	{
-		if (!atoi(argv[i]))
+		for (i = 1; i < argc; i++)
 		{
-			printf("%s\n", "Error");
-			return (1);
-
+			for (j = 0; argv[i][j] != '\0'; j++)
+			{
+				if (argv[i][j] >= '0' && argv[i][j] <= '9')
+				{
+					continue;										} else
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
+			result += atoi(argv[i]);
 		}
-		sum += atoi(argv[i]);
-	}
-	printf("%d\n", sum);
-
+		printf("%d\n", result);
+	} else	
+		printf("0\n");
+			
 	return (0);
 }
