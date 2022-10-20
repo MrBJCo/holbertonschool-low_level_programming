@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _isalpha - fuction that checks for alphabetic character
  * @c: input letrer
