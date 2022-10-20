@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - Entry Point
- * @argc: arguments
- * @argv: array pointing to arguments
- * Return: 0
+ * main - adds positive numbers
+ * @argc: argument count
+ * @argv: argument vector for values
+ *
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
@@ -13,12 +13,14 @@ int main(int argc, char *argv[])
 
 	if (argc < 1)
 		return (0);
+
 	for (i = 1; i < argc; i++)
 	{
 		if (!atoi(argv[i]))
 		{
 			printf("%s\n", "Error");
 			return (1);
+		
 		}
 		sum += atoi(argv[i]);
 	}
