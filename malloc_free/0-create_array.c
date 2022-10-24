@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * *create_array - creates an array of chars, and initializes it with a specific char
- * @size: the size of the memory to print
- *
- * Return: Nothing.
+ * create_array - main entry
+ * @size: size input
+ * @c: char
+ * Return: 0
  */
 
 char *create_array(unsigned int size, char c)
