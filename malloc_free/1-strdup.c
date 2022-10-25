@@ -1,5 +1,4 @@
 #include <stdlib.h>
-/* #include <stdio.h> */
 
 /**
  * _strdup - function that returns a pointer to a newly allocated string.
@@ -20,11 +19,10 @@ char *_strdup(char *str)
 	if (s == 0)
 		return (0);
 	s[i] = '\0';
-		/* printf("%d: %c\n", i, s[i]);*/
+
 	while (i--)
 	{
 		s[i] = str[i];
-		/*printf("%d: %c\n", i, s[i]);*/
 	}
 	return (s);
 }

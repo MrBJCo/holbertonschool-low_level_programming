@@ -1,52 +1,29 @@
-#include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
- * _strlen - return length of a string
+ * main - function concatenates two strings
  *
- * @s: char type
- * Return:  length of string
- */
-int _strlen(char *s)
-{
-	int a;
-
-	for (a = 0; s[a] != '\0'; a++)
-	{
-
-	}
-	return (a);
-}
-
-/**
- * *_strdup - function to return pointer to string
- * @str: pointer to string array input
- * Return: pointer to string created
+ * Return: NULL
  */
 
-char *_strdup(char *str)
+char *str_concat(char *s1, char *s2);
 {
-	char *ptr;
-	int size;
-	int x;
+	int i;
+	char *s;
 
-	if (str == NULL)
+	if (str == 0)
+		return (0);
+	for (i = 0; str[i]; i++)
+		;
+	s = malloc(sizeof(char) * (i + 1));
+	if (s == 0)
+		return (0);
+	s[i] = '\0';
+		/* printf("%d: %c\n", i, s[i]);*/
+	while (i--)
 	{
-		return (NULL);
+		s[i] = str[i];
+		/*printf("%d: %c\n", i, s[i]);*/
 	}
-	size = _strlen(str) + 1;
-	ptr = malloc(size * sizeof(char));
-
-	x = 0;
-	while (x < size)
-	{
-		if (ptr == NULL)
-		{
-			return (NULL);
-	}
-		ptr[x] = str[x];
-		x++;
-	}
-	return (ptr);
+	return (s);
 }
